@@ -73,7 +73,7 @@
             name: "Yanjing Huang",
             role: "AI Modeling Engineer",
             tagline: "Specialized in Large Language Models, RAG pipelines, and scalable ML microservices.",
-            email: "Yanjingh@andrew.cmu.edu",
+            email: "yanjing.huang01@gmail.com",
             phone: "(781) 600-9010",
             linkedin: "https://www.linkedin.com/in/yanjinghuang/",
             location: "Bellevue, WA",
@@ -112,9 +112,40 @@
         ];
 
         const SKILLS = {
-            "AI & ML": ["Large Language Models (LLMs)", "RAG", "LangChain", "PyTorch", "Scikit-learn", "Computer Vision (CNN)", "NLP (Transformers)", "Deep Learning"],
-            "Data Engineering": ["Databricks", "Spark (PySpark)", "SQL", "Vector Databases (FAISS)", "Airflow", "Azure ML"],
-            "Development": ["Python", "FastAPI", "Docker", "Git", "Microservices", "Java", "React"],
+            "AI & ML": [
+                "Machine Learning",
+                "Feature Engineering",
+                "Deep Learning (CNN, RNN, Transformers)",
+                "Large Language Models (LLMs)",
+                "Prompt Engineering",
+                "Retrieval-Augmented Generation (RAG)",
+                "PyTorch",
+                "Scikit-learn"
+            ],
+            "Data Engineering": [
+                "Databricks",
+                "Apache Spark",
+                "PySpark",
+                "SQL",
+                "Vector Databases (FAISS)",
+                "Azure ML",
+                "MLflow",
+                "MLOps"
+            ],
+            "Development": [
+                "FastAPI",
+                "REST APIs",
+                "Docker",
+                "Git",
+                "Microservices",
+                "LangChain"
+            ],
+            "Programming": [
+                "Python (NumPy, Pandas, Matplotlib, Seaborn)",
+                "Java",
+                "SQL",
+                "R"
+            ],
             "Visualization": ["Tableau", "Power BI", "Matplotlib", "Seaborn"]
         };
 
@@ -314,7 +345,7 @@
                                    </div>
                                 </div>
                                 <p className="text-gray-400 text-center md:text-left max-w-lg mx-auto md:mx-0 leading-relaxed text-lg">
-                                  {PERSONAL_INFO.tagline} I enjoy building systems that bridge the gap between complex data and actionable insights.
+                                  I enjoy building AI systems that start from real business needs and end in meaningful impact by designing LLM agents, recommendation models, and scalable ML services that are practical, reliable, and used in production.
                                 </p>
                                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                                   <button onClick={() => scrollToSection('#contact')} className="px-8 py-3 bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-400 hover:to-pink-500 text-white rounded-full font-medium transition-all shadow-[0_0_20px_rgba(244,63,94,0.3)] flex items-center gap-2"><Mail className="w-4 h-4" /> Connect</button>
@@ -466,10 +497,9 @@
                                      <div className="text-left"><p className="text-sm text-gray-400 group-hover:text-rose-200">LinkedIn</p><p className="text-white font-medium">Connect with Yanjing</p></div>
                                  </a>
                              </div>
-                             <footer className="text-gray-500 text-sm pt-8 border-t border-white/10">
-                                 <p>© {new Date().getFullYear()} {PERSONAL_INFO.name}. All rights reserved.</p>
-                                 <p className="mt-2">Built with React & Tailwind CSS</p>
-                             </footer>
+                            <footer className="text-gray-500 text-sm pt-8 border-t border-white/10">
+                                <p className="mt-2">Built with React & Tailwind CSS</p>
+                            </footer>
                         </div>
                     </section>
                 </div>

@@ -138,17 +138,19 @@
                 "Docker",
                 "Git",
                 "Microservices",
-                "LangChain",
-                "Tableau",
-                "Power BI",
-                "Matplotlib",
-                "Seaborn"
+                "LangChain"
             ],
             "Programming": [
                 "Python",
                 "Java",
                 "SQL",
                 "R"
+            ],
+            "Data Visualization": [
+                "Tableau",
+                "Power BI",
+                "Matplotlib",
+                "Seaborn"
             ]
         };
 
@@ -175,8 +177,7 @@
                 description: "Automated critical data workflows and enhanced customer support analytics.",
                 achievements: [
                     "Built an LLM-driven feature mapping tool automating metadata generation, saving $84K and reducing manual effort by 98%.",
-                    "Built a DeepFM-based recommendation system with PyTorch and PySpark, modeling low- and high-order feature interactions across millions of user events. Achieved 88% Hit@5 by optimizing BPR loss, hybrid negative sampling, and attention-based features, while addressing cold-start users.",
-                    "Improved customer care classification accuracy by 12% using NLP techniques on support transcripts."
+                    "Built a DeepFM-based recommendation system with PyTorch and PySpark, modeling low- and high-order feature interactions across millions of user events. Achieved 88% Hit@5 by optimizing BPR loss, hybrid negative sampling, and attention-based features, while addressing cold-start users."
                 ]
             },
             {
@@ -420,6 +421,12 @@
                     {/* Projects, Skills, Contact */}
                     <section className="py-12 px-6">
                          <div className="container mx-auto max-w-5xl">
+                             <div className="mb-10 text-center">
+                                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 relative inline-block">
+                                     Education
+                                     <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-pink-500 to-violet-500 rounded-full"></div>
+                                 </h2>
+                             </div>
                              <div className="grid md:grid-cols-2 gap-6">
                                  {EDUCATION.map((edu, idx) => (
                                      <div key={idx} className="bg-white/5 p-6 rounded-2xl border border-white/5 hover:border-rose-500/20 transition-colors flex gap-4 items-start">
